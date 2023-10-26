@@ -71,6 +71,21 @@ O projeto ainda está sendo desenvolvido e você pode contribuir:
     - [ ] useState
     - [ ] useEffect
 
+ ## Quality assurance
+
+  - [] Definindo processos fluxos e padrões de softwate
+  - [] Modelo Pescritivo
+  - [] Modelos especializados
+  - [] Processo Unificado
+  - [] Tipos de testes
+  
+  ## Teste unitário
+  -[] jest
+
+  ## Python
+
+  ## C#
+
 ## Indicações
 
 - [x] Indicações de Repositórios
