@@ -45,7 +45,34 @@ O projeto ainda está sendo desenvolvido e você pode contribuir:
 ## Frontend
 
 - HTML
-- [ ] Tags
+- [ ] Tags (estrututa geral de um documento HTML)
+      
+      <!DOCTYPE html> Tipo de documento - indica que estamos criando uma página HTML5.
+      <html lang="pt-br"> Define o idioma do conteúdo da página.
+      <head> - Organiza as configurações gerais (metadados) da página.
+          <meta charset="UTF-8"> Indica a tabela de referência de caracteres. Garante os usos de todos os símbolos especiais e caracteres utilizados na maioria das línguas, inclusive o                                   Português.
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"> Confugura a página para se ajustar de acordo com o tamanho do dispositivo do usuário
+          <title> título da página que aparece na aba do navegador </title>
+      </head>
+
+      <body> "Corpo" ou esqueleto da página. Todo o conteúdo da página é inserido no "body.
+          <header> Organiza os elementos do cabeçalho (topo) da página.
+              <h1> Título Principal da Página </h1> títulos vão do h1 ao h6. O tamanho da fonte diminui conforme o número da "h" aumenta.
+          </header>
+
+          <main> A parte principal da página, o "recheio" com o conteúdo da página em si
+            <section> divide o conteúdo em "seções".
+              <div> cria "containers", espaços para organizar os conteúdos
+                <p> texto </>
+                <img src="insere uma imagem na página" alt="insere um texto que descreve a imagem">
+              </div>
+            </section>
+          </main>
+
+          <footer> Organiza os elementos do rodapé (fim) da página. </footer>
+      </body>
+      </html> 
+           
 - [ ] Self Closing tag
 - [ ] head e body
 - [ ] Tags semântica
